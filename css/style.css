@@ -322,3 +322,31 @@
 	margin-top: 0px;
 	padding-top: 2%;
 }
+.researches-titel {
+	text-align: center; 
+	color:#000004; 
+	font-size: 1.5em;
+	margin-top: 0px;
+	padding-top: 2%;
+}
+.researches-titel-market {
+	text-align: center; 
+	color:#0a0080; 
+	font-size: 1.4em;
+	margin-top: 0px;
+	padding-top: 2%;
+	text-decoration: underline;
+}
+.researches_form {
+	border: none;
+	margin: 0;
+}
+.researches_form input {
+	border: 1px solid #f47004;
+	width: 80%;
+	margin: 5% 0 auto 0;
+}
+.researches_bott {
+	border: 1px solid #f47004;
+	margin: 0 5%;
+}

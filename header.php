@@ -31,7 +31,7 @@
 			  			<li><a href="reports_monthly.php">Monthly</a></li>
 			  		</ul>
 			  	</li>
-			  	<li> <a href="/"><p>Researches</p></a></li>
+			  	<li> <a href="researches.php"><p>Researches</p></a></li>
 			  	<li> <a href="/"><p>About us</p></a></li>
 			  	<li> <a href="/"><p>Contact us</p></a></li>
 		       </ul>
