@@ -19,19 +19,19 @@
 			<p color="#174efa">Risk Warning: The reports are only suitable for professional investors</p>
 		</div>
 		<div class="news2 news_mobi" class="shadow_markets" style="background-color: rgba(13, 171, 254, 0.37);">
-			<form action="Form/researches_form.php">
+			<form action="Form/researches_form.php" method="POST">
 				  <fieldset class="researches_form">
-				  	<input id="txtFirstName" name="txtFirstName" type="text" class="form-control" placeholder="Your first name(s) *" pattern=".{2,}" required="" title="2 characters minimum">
-				  	<input id="txtLastName" name="txtLastName" type="text" class="form-control user-error" placeholder="Your last name *" pattern=".{2,}" required="" title="2 characters minimum" aria-invalid="true">
+				  	<input id="txtFirstName" name="txtFirstName" type="text" class="form-control" placeholder="Your first name(s) *" required="">
+				  	<input id="txtLastName" name="txtLastName" type="text" class="form-control user-error" placeholder="Your last name *" required="">
 				  	<input id="email" name="email" type="email" class="form-control" placeholder="Your email address *" required="">
 				  	<input id="txtTelephoneNumber" name="txtTelephoneNumber" type="tel" class="form-control" placeholder="Telephone number">
-				  	<input id="txtCompany" name="txtCompany" type="text" class="form-control" placeholder="Your company name *" pattern=".{2,}" required="" title="2 characters minimum">
+				  	<input id="txtCompany" name="txtCompany" type="text" class="form-control" placeholder="Your company name *" required="">
 				  	<input id="txtNatureOfBusiness" name="txtNatureOfBusiness" type="text" class="form-control" placeholder="Nature of business">
 				  	<input id="Country" name="Country" type="text" class="form-control" placeholder="Country">
 				  	<input id="titleOfResearche" name="titleOfResearche" type="text" class="form-control" placeholder="Title of researche">
 				  </fieldset>
 				  <p>
-				  	<input type="submit" value="Submit" class="researches_bott" 
+				  	<input type="submit" name="submit" value="Submit" class="researches_bott" 
 				  	>
 				  </p>
 			</form>

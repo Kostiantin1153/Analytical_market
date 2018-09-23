@@ -1,20 +1,42 @@
-    <footer>
-		<div class="main-footer">
-			<div class="footer-boxs">
-			  <ul class="footer-text">
-				<li class="footer-text"> <a href="/"><p>Order research</p></a></li>
-				<li class="footer-text"> <a href="/"><p>Subscribe</p></a></li>
-				<li class="footer-text"> <a href="/"><p>Contact us</p></a></li>
-				<li class="footer-text"> <a href="/"><p>About us</p></a></li>
-			   </ul>
-		    </div>
-	 		<div class="footer-boxs">
-				<p>AgriProfitTaken 6 Hays Lane, London SE1 2HB,<br>+44 (0)20 3300 1643<br>info@agricensus.com<br>Follow us  
-			 Facebook tweet link
-		    </p>
-			</div>
-		 </div>
-	</footer>
-  </div>
-</body>
-</html>
+<?php
+session_start();
+if (isset($_POST["submit"])) {
+	$txtFirstName = htmlspecialchars($_POST["txtFirstName"]);
+	$txtLastName = htmlspecialchars($_POST["txtLastName"]);
+	$email = htmlspecialchars($_POST["email"]);
+	$txtTelephoneNumber = htmlspecialchars($_POST["txtTelephoneNumber"]);
+	$txtCompany = htmlspecialchars($_POST["txtCompany"]);
+	$txtNatureOfBusiness = htmlspecialchars($_POST["txtNatureOfBusiness"]);
+	$Country = htmlspecialchars($_POST["Country"]);
+	$titleOfResearche = htmlspecialchars($_POST["titleOfResearche"]);
+
+}
+
+	$_SESSION["txtFirstName"] = $txtFirstName;
+	$_SESSION["txtLastName"] = $txtLastName;
+	$_SESSION["email"] = $email;
+	$_SESSION["txtTelephoneNumber"] = $txtTelephoneNumber;
+	$_SESSION["txtNatureOfBusiness"] = $txtNatureOfBusiness;
+	$_SESSION["Country"] = $Country;
+	$_SESSION["titleOfResearche"] = $titleOfResearche;
+
+
+	/*$message_to_email = "Здравствуйте! 
+Вашей контактной формой было отправлено сообщение! 
+Имя отправителя: $your_name 
+E-mail: $email 
+Текст сообщения: $message 
+Конец";
+}*/
+
+print_r($_POST) ;
+
+/*mail($myemail, $tema, $message_to_myemail, $from);*/
+
+/*
+$mysqli = new mysqli ("localhost", "root", "", "aptresearches_form")
+$mysqli->query ("SET NAMES 'utf8'");
+$mysqli->query ();
+$mysqli->close();*/
+
+?>
