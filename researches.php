@@ -19,7 +19,7 @@
 			<p color="#174efa">Risk Warning: The reports are only suitable for professional investors</p>
 		</div>
 		<div class="news2 news_mobi" class="shadow_markets" style="background-color: rgba(13, 171, 254, 0.37);">
-			<form action="Form/researches_form.php" method="POST">
+			<form action="researches_form.php" method="POST">
 				  <fieldset class="researches_form">
 				  	<input id="txtFirstName" name="txtFirstName" type="text" class="form-control" placeholder="Your first name(s) *" required="">
 				  	<input id="txtLastName" name="txtLastName" type="text" class="form-control user-error" placeholder="Your last name *" required="">

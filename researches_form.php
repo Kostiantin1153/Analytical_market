@@ -1,11 +1,12 @@
  <?php 
-    require ("../head.php");
+    require ("head.php");
   ?>
-<body style="background-image: url(../photos/Reports.jpg);">
+<body style="background-image: url(photos/Reports.jpg);">
 	<div class="body">
 <?php 
-    require ("../header.php");
+    require ("header.php");
 ?>
+<div class="main-home">
 <?php
 session_start();
 if (isset($_POST["submit"])) {
@@ -79,8 +80,8 @@ VALUES (NULL, '$txtFirstName', '$txtLastName', '$email', '$txtTelephoneNumber', 
 
 mysqli_close($con);
 
-echo "New record created successfully";
 ?>
+<h1 style="color: green; text-align: center;"> New record created successfully!!! </h1>
 <?php 
-    require ("../footer.php");
+    require ("footer.php");
 ?>

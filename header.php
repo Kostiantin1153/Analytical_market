@@ -3,7 +3,7 @@
         </div>
 		  <div class="AgriProfitTaking"><a href="Index.php"><p>AgriProfitTaking</p></a>
 		  </div>
-		  <div class="Subscribe"><a href="/"><p>Subscribe</p></a>
+		  <div class="Subscribe"><a href="subscribe.php"><p>Subscribe</p></a>
 		  </div>
 		  <div >
            <nav class="nav" id='nav'>
@@ -32,8 +32,8 @@
 			  		</ul>
 			  	</li>
 			  	<li> <a href="researches.php"><p>Researches</p></a></li>
-			  	<li> <a href="/"><p>About us</p></a></li>
-			  	<li> <a href="/"><p>Contact us</p></a></li>
+			  	<li> <a href="about_us.php"><p>About us</p></a></li>
+			  	<li> <a href="contact_us.php"><p>Contact us</p></a></li>
 		       </ul>
 		    </nav>
           </div>

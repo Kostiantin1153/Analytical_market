@@ -166,12 +166,14 @@
 	.news1.news_mobi {
 		width: inherit; 
 	margin: 2% auto;
-	display: block;	
+	display: block;
+	float: none;	
     }
 	.news2.news_mobi {
 		width: inherit; 
 	margin: 2% auto;
 	display: block;	
+	float: none;
     }
 	.main-news.mobi {
 		display: block; 
@@ -346,7 +348,17 @@
 	width: 80%;
 	margin: 5% 0 auto 0;
 }
+.researches_form_textarea {
+	border: 1px solid #f47004;
+	width: 100%;
+	margin: 5% 0 auto 0;
+}
 .researches_bott {
 	border: 1px solid #f47004;
 	margin: 0 5%;
+}
+.about_us {
+	padding: 7%;
+	align-content: justify;
+	font: 1.2em;
 }
