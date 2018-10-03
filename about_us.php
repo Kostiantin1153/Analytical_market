@@ -1,7 +1,7 @@
  <?php 
     require ("head.php");
   ?>
-    <body style="background-image: url(photos/wheat_market_rynok_pshenitsy.jpg);">
+    <body style="background-image: url(photos/About_us.jpg);">
 	<div class="body">
 <?php 
     require ("header.php");

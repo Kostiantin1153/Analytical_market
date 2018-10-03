@@ -362,3 +362,26 @@
 	align-content: justify;
 	font: 1.2em;
 }
+.subscribe_point {
+	margin: 0;
+	padding: 0;
+}
+.subscribe_pointL {	
+	margin: 0;
+	padding: 0;
+	position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+}
+.subscribe_pointR {	
+	margin: 0;
+	padding: 0;
+	position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+}
+.subscribelabelabel {	
+	font-size: 0.8em;
+}

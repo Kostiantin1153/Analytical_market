@@ -11,7 +11,7 @@
 	</div>
 	<p>Please complete the form to receive AgriProfitTaking research and market commentary.</p>
 	<div class="main-news mobi">
-		         <form action="contact_form.php" method="POST" style="background-color: rgba(13, 171, 254, 0.37); margin: 5% 0 auto 0;">		
+		         <form action="subscribe_form.php" method="POST" style="background-color: rgba(13, 171, 254, 0.37);">		
 				 <fieldset class="researches_form">
 				  <div class="news1 news_mobi" class="shadow_markets">
 				  	<input id="txtFirstName" name="txtFirstName" type="text" class="form-control" placeholder="Your first name(s) *" required="">
@@ -22,11 +22,27 @@
 				  	<input id="txtNatureOfBusiness" name="txtNatureOfBusiness" type="text" class="form-control" placeholder="Nature of business">
 				  	<input id="Country" name="Country" type="text" class="form-control" placeholder="Country">
 			        </div>
-			       <div class="news2 news_mobi" class="shadow_markets" align="left" margin="0">
-			        	<p>I wish to subscribe to the following reports:
+			       <div class="news2 news_mobi" class="shadow_markets">
+			       	    <p>I wish to subscribe to the following reports:
 			        	</p>
-			        	<label><input id="SpecialMonthlyReports" name="SpecialMonthlyReports" type="checkbox" value="1"> Special Monthly Reports</label>
-			        	<label><input id="SpecialMonthlyReports" name="SpecialMonthlyReports" type="checkbox" value="1"> Special Monthly Reports</label>
+			       	    <div class="subscribe_point">
+			       	    	<div class="subscribe_pointL" align="left">
+			       	    		<p>Wekly Reports</p>
+			       	    		<label class="subscribelabelabel"><input id="DairyWeekly" name="DairyWeekly" type="checkbox" style="width: 12px; height: 12"> Dairy</label><br>
+			       	    		<label class="subscribelabelabel"><input id="SugarWeekly" name="SugarWeekly" type="checkbox" style="width: 12px; height: 12"> Sugar</label><br>
+			       	    		<label class="subscribelabelabel"><input id="GrainWeekly" name="GrainWeekly" type="checkbox" style="width: 12px; height: 12"> Grain</label><br>
+			       	    		<label class="subscribelabelabel"><input id="OilWeekly" name="OilWeekly" type="checkbox" style="width: 12px; height: 12"> Oil</label><br>
+			       	    		
+			       	    	</div>
+			       	    	<div class="subscribe_pointR" align="left">
+			       	    		<p>Monthly Reports</p>
+			       	    		<label class="subscribelabelabel"><input id="DairyMonthly" name="DairyMonthly" type="checkbox" style="width: 12px; height: 12"> Dairy</label><br>
+			       	    		<label class="subscribelabelabel"><input id="SugarMonthly" name="SugarMonthly" type="checkbox" style="width: 12px; height: 12"> Sugar</label><br>
+			       	    		<label class="subscribelabelabel"><input id="GrainMonthly" name="GrainMonthly" type="checkbox" style="width: 12px; height: 12"> Grain</label><br>
+			       	    		<label class="subscribelabelabel"><input id="OilMonthly" name="OilMonthly" type="checkbox" style="width: 12px; height: 12"> Oil</label><br>
+
+			       	    	</div>
+			       	    </div> 	
 			        </div>
 				 </fieldset>
 				 <p>
