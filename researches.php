@@ -7,11 +7,9 @@
     require ("header.php");
 ?>
 <div class="main-home">
-	<div class="maine-home-titel"> <p>Researches</p>
-	</div>
-
-
-
+  <div class="maine-home-titel"> <p>Researches</p>
+  </div>
+  <div class="backgmainbor">
 	<div class="researches-titel"><p>Request the report</p>
 	</div>
 	<div class="main-news mobi">
@@ -106,6 +104,7 @@
 			<a href="https://drive.google.com/file/d/14B-M9R6urPiAxo84qM8OCAZf9Y55Lm72/view?usp=drive_open"  target="_blank"><img src="photos/pdf-icon.png" width="30%"></a>
 		</div>
 	</div>
+  </div>
 
 
 </div>

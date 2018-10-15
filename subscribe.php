@@ -9,8 +9,10 @@
 <div class="main-home">
 	<div class="maine-home-titel"> <p>Subscribe to Reports</p>
 	</div>
-	<p>Please complete the form to receive AgriProfitTaking research and market commentary.</p>
-	<div class="main-news mobi">
+	<div class="backgmainbor">
+		<p style="padding: 0;
+	 margin: 0;">Please complete the form to receive AgriProfitTaking research and market commentary.</p>
+		<div class="main-news mobi">
 		         <form action="subscribe_form.php" method="POST" style="background-color: rgba(13, 171, 254, 0.37);">		
 				 <fieldset class="researches_form">
 				  <div class="news1 news_mobi" class="shadow_markets">
@@ -50,6 +52,7 @@
 				  	>
 				 </p>
 			</form>
+		</div>
 	</div>
 
 <?php 

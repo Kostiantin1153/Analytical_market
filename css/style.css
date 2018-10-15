@@ -361,6 +361,10 @@
 	padding: 7%;
 	align-content: justify;
 	font: 1.2em;
+	background-color: rgba(250, 250, 250, 0.7);
+	border-top: 1px solid #f47004;
+	margin: 0;
+}
 }
 .subscribe_point {
 	margin: 0;
@@ -385,3 +389,15 @@
 .subscribelabelabel {	
 	font-size: 0.8em;
 }
+.backgmainbor {
+	 background-color: rgba(250, 250, 250, 0.7);
+	 border-top: 1px solid #f47004;
+	 padding: 16px 0 0 0;
+	 margin: 0;
+}
+.backgmain {
+	 background-color: rgba(250, 250, 250, 0.7);
+	}
+
+/*style="background-color: rgba(250, 250, 250, 0.8); 
+border-top: 1px solid #f47004;"*/

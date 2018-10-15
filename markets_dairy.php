@@ -7,8 +7,9 @@
     require ("header.php");
 ?>
 <div class="main-home">
-     <div class="maine-home-titel"> <p>Dairy</p>
-     </div>
+   <div class="maine-home-titel"> <p>Dairy</p>
+   </div>
+   <div class="backgmainbor">
     <div class="main-news mobi">
 	 	 <div class="news1 news_mobi" class="shadow_markets"> <p class="news-titel">  Representatives of U.S. Treasury Secretary Steven Mnuchin</p>
 			 and Chinese Vice Premier Liu He are having private conversations as they
@@ -46,6 +47,7 @@
 		look for ways to reengage in negotiations, according to the people who
 		spoke about the deliberations on condition of anonymity.
     </div>
+ </div>
  </div>
 </div>
 <?php 
